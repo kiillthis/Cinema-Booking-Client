@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background ="#d587db" >
+
+
+    <ImageView
+        android:id="@+id/cinema_poster"
+        android:layout_width="411dp"
+        android:layout_height="232dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_about_us"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="245dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="About us title"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/cinema_poster"
+        app:layout_constraintTop_toBottomOf="@+id/cinema_poster" />
+
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="349dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="96dp"
+        android:gravity="center|top"
+        android:text="About us"
+        android:textStyle="italic"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/cinema_poster"
+        app:layout_constraintTop_toBottomOf="@+id/cinema_poster" />
+
+</android.support.constraint.ConstraintLayout>

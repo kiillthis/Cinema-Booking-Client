@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bonus"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Акции и бонусы" />
+        <item
+            android:id="@+id/nav_office"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="Личный кабинет" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:title="Помощь" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="Контакты" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="О нас" />
+    </group>
+
+
+
+</menu>

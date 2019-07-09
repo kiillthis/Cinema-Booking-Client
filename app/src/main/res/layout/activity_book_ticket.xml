@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.BookTicketActivity"
+    android:background="#eceabe">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="#c1c1c1"
+        android:gravity="center"
+        android:text="@string/screen"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_row_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="Row #1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/place_1_1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_row_1"
+        app:layout_constraintEnd_toStartOf="@+id/place_1_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_row_1" />
+
+    <Button
+        android:id="@+id/place_1_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="2"
+        app:layout_constraintBottom_toBottomOf="@+id/place_1_1"
+        app:layout_constraintEnd_toStartOf="@+id/place_1_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_1_1"
+        app:layout_constraintTop_toTopOf="@+id/place_1_1" />
+
+    <Button
+        android:id="@+id/place_1_3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="@+id/place_1_2"
+        app:layout_constraintEnd_toStartOf="@+id/place_1_4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_1_2"
+        app:layout_constraintTop_toTopOf="@+id/place_1_2" />
+
+    <Button
+        android:id="@+id/place_1_4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="4"
+        app:layout_constraintBottom_toBottomOf="@+id/place_1_3"
+        app:layout_constraintEnd_toStartOf="@+id/place_1_5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_1_3"
+        app:layout_constraintTop_toTopOf="@+id/place_1_3" />
+
+    <Button
+        android:id="@+id/place_1_5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="@+id/place_1_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_1_4"
+        app:layout_constraintTop_toTopOf="@+id/place_1_4" />
+
+    <!---->
+
+    <TextView
+        android:id="@+id/tv_row_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="Row #2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_row_1" />
+
+    <Button
+        android:id="@+id/place_2_1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_row_2"
+        app:layout_constraintEnd_toStartOf="@+id/place_2_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_row_2" />
+
+    <Button
+        android:id="@+id/place_2_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="2"
+        app:layout_constraintBottom_toBottomOf="@+id/place_2_1"
+        app:layout_constraintEnd_toStartOf="@+id/place_2_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_2_1"
+        app:layout_constraintTop_toTopOf="@+id/place_2_1" />
+
+    <Button
+        android:id="@+id/place_2_3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="@+id/place_2_2"
+        app:layout_constraintEnd_toStartOf="@+id/place_2_4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_2_2"
+        app:layout_constraintTop_toTopOf="@+id/place_2_2" />
+
+    <Button
+        android:id="@+id/place_2_4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="4"
+        app:layout_constraintBottom_toBottomOf="@+id/place_2_3"
+        app:layout_constraintEnd_toStartOf="@+id/place_2_5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_2_3"
+        app:layout_constraintTop_toTopOf="@+id/place_2_3" />
+
+    <Button
+        android:id="@+id/place_2_5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="@+id/place_2_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_2_4"
+        app:layout_constraintTop_toTopOf="@+id/place_2_4" />
+
+    <!---->
+    <!---->
+
+    <TextView
+        android:id="@+id/tv_row_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:text="Row #3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_row_2" />
+
+    <Button
+        android:id="@+id/place_3_1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_row_3"
+        app:layout_constraintEnd_toStartOf="@+id/place_3_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_row_3" />
+
+    <Button
+        android:id="@+id/place_3_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="2"
+        app:layout_constraintBottom_toBottomOf="@+id/place_3_1"
+        app:layout_constraintEnd_toStartOf="@+id/place_3_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_3_1"
+        app:layout_constraintTop_toTopOf="@+id/place_3_1" />
+
+    <Button
+        android:id="@+id/place_3_3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="@+id/place_3_2"
+        app:layout_constraintEnd_toStartOf="@+id/place_3_4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_3_2"
+        app:layout_constraintTop_toTopOf="@+id/place_3_2" />
+
+    <Button
+        android:id="@+id/place_3_4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="4"
+        app:layout_constraintBottom_toBottomOf="@+id/place_3_3"
+        app:layout_constraintEnd_toStartOf="@+id/place_3_5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_3_3"
+        app:layout_constraintTop_toTopOf="@+id/place_3_3" />
+
+    <Button
+        android:id="@+id/place_3_5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="@+id/place_3_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/place_3_4"
+        app:layout_constraintTop_toTopOf="@+id/place_3_4" />
+
+    <Button
+        android:id="@+id/btn_boock"
+        android:layout_width="126dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="8dp"
+        android:background="#c1876b"
+        android:text="Book ticket(s)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place_3_3" />
+
+    <!---->
+
+    <!--Add new-->
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="72dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:text="Yes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_row_2" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="70dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:text="Chooce"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_1" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="73dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="84dp"
+        android:text="No"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_1" />
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="54dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/ic_1"
+        app:layout_constraintStart_toEndOf="@+id/tv_1"
+        app:layout_constraintTop_toBottomOf="@+id/place_3_1" />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="54dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        android:src="@mipmap/ic_2"
+        app:layout_constraintStart_toEndOf="@+id/tv_2"
+        app:layout_constraintTop_toTopOf="@+id/img_1" />
+
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="43dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/img_3"
+        app:layout_constraintStart_toEndOf="@+id/tv_3"
+        app:layout_constraintTop_toBottomOf="@+id/img_2" />
+
+
+</android.support.constraint.ConstraintLayout>
